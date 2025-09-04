@@ -1,5 +1,6 @@
 package org.example.lesson_1
 
 fun main() {
-    println("Урок 1 Задача 1")
+    val countOrders: Int = 75
+    val textGratitude: String = "Thank you for arranging the delivery"
 }
