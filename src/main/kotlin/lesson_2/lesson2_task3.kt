@@ -14,5 +14,4 @@ fun main() {
     print(timeArrivalHour)
     print(":")
     print(timeArrivalMinute)
-
 }
