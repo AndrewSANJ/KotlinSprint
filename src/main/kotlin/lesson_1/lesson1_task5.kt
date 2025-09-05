@@ -1,6 +1,7 @@
 package org.example.lesson_1
 
 fun main() {
+    
     val second = 6480
     val hours = second/3600
     val minutes = (second - hours*3600)/60
