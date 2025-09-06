@@ -9,5 +9,4 @@ fun main() {
 
     println("Additional crystal ore mined ${crystalOreMined * buffMined / 100}")
     println("Additional iron ore mined ${ironOreMined * buffMined / 100}")
-
 }
