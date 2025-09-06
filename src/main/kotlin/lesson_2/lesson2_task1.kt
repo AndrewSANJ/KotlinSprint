@@ -7,7 +7,9 @@ fun main() {
     val scoreStudent3 = 3
     val scoreStudent4 = 5
 
-    val average: Float = (scoreStudent1.toFloat() + scoreStudent2 + scoreStudent3 + scoreStudent4)/4
+    val countStudents = 4
+
+    val average: Float = (scoreStudent1.toFloat() + scoreStudent2 + scoreStudent3 + scoreStudent4) / countStudents
 
     println("%.2f".format(average))
 }
