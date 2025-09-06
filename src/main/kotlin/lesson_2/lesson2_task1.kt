@@ -12,4 +12,5 @@ fun main() {
     val average: Float = (scoreStudent1.toFloat() + scoreStudent2 + scoreStudent3 + scoreStudent4) / countStudents
 
     println("%.2f".format(average))
+
 }
