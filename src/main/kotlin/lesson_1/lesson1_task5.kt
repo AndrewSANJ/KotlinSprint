@@ -15,5 +15,4 @@ fun main() {
     print("%02d".format(minutes))
     print(":")
     print("%02d".format(seconds))
-
 }
