@@ -1,4 +1,4 @@
-
+package lesson_1
 const val MINUTES_AN_HOUR = 60
 const val SECONDS_AN_MINUTE = 60
 
