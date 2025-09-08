@@ -10,9 +10,5 @@ fun main() {
     val minutes = (second - hours * MINUTES_AN_HOUR * SECONDS_AN_MINUTE) / SECONDS_AN_MINUTE
     val seconds = second % SECONDS_AN_MINUTE
 
-    print("%02d".format(hours))
-    print(":")
-    print("%02d".format(minutes))
-    print(":")
-    print("%02d".format(seconds))
+    print("%02d:%02d:%02d".format(hours, minutes, seconds))
 }
