@@ -17,4 +17,5 @@ fun main() {
         Упражнения для пресса:  ${currentDay % 2 == exercisesAbsDayGroup}
         """.trimIndent()
     )
+
 }
