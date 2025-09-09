@@ -1,20 +1,20 @@
 package org.example.lesson_4
 
+const val EXERCISES_ARM_DAY_GROUP = 1
+const val EXERCISES_ABS_DAY_GROUP = 1
+const val EXERCISES_LEGS_DAY_GROUP = 0
+const val EXERCISES_BACK_DAY_GROUP = 0
+
 fun main() {
 
     val currentDay = 5
 
-    val exercisesArmDayGroup = 1
-    val exercisesAbsDayGroup = 1
-    val exercisesLegsDayGroup = 0
-    val exercisesBackDayGroup = 0
-
     println(
         """
-        Упражнения для рук:     ${currentDay % 2 == exercisesArmDayGroup}
-        Упражнения для ног:     ${currentDay % 2 == exercisesLegsDayGroup}
-        Упражнения для спины:   ${currentDay % 2 == exercisesBackDayGroup}
-        Упражнения для пресса:  ${currentDay % 2 == exercisesAbsDayGroup}
+        Упражнения для рук:     ${currentDay % 2 == EXERCISES_ARM_DAY_GROUP}
+        Упражнения для ног:     ${currentDay % 2 == EXERCISES_LEGS_DAY_GROUP}
+        Упражнения для спины:   ${currentDay % 2 == EXERCISES_BACK_DAY_GROUP}
+        Упражнения для пресса:  ${currentDay % 2 == EXERCISES_ABS_DAY_GROUP}
         """.trimIndent()
     )
 
