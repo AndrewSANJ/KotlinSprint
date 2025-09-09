@@ -1,16 +1,18 @@
 package org.example.lesson_4
 
+    const val WEIGHT_MIN = 35
+    const val WEIGHT_MAX = 100
+    const val VOLUME_MAX = 100
+
 fun main() {
-    val weightMin = 35
-    val weightMax = 100
-    val volumeMax = 100
+
 
     var weight = 42
     var volume = 120
 
     println(
         "Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': " +
-                "${weight > weightMin && weight <= weightMax && volume < volumeMax}"
+                "${weight > WEIGHT_MIN && weight <= WEIGHT_MAX && volume < VOLUME_MAX}"
     )
 
     weight = 20
@@ -18,7 +20,7 @@ fun main() {
 
     println(
         "Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': " +
-                "${weight > weightMin && weight <= weightMax && volume < volumeMax}"
+                "${weight > WEIGHT_MIN && weight <= WEIGHT_MAX && volume < VOLUME_MAX}"
     )
 
     weight = 50
@@ -26,6 +28,6 @@ fun main() {
 
     println(
         "Груз с весом $weight кг и объемом $volume л соответствует категории 'Average': " +
-                "${weight > weightMin && weight <= weightMax && volume < volumeMax}"
+                "${weight > WEIGHT_MIN && weight <= WEIGHT_MAX && volume < VOLUME_MAX}"
     )
 }
