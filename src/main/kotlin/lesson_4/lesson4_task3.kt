@@ -1,21 +1,19 @@
 package org.example.lesson_4
 
+const val AIR_HUMIDITY = 20
+const val NOT_SEASON = "Winter"
+
 fun main() {
 
-    val criteriaIsSunnyWeather = true
-    val criteriaIsOpenAwning = true
-    val criteriaAirHumidity = 20
-    val criteriaNotSeason = "Winter"
-
-    val todayIsSunnyWater = true
-    val todayIsOpenAwning = true
-    val todayAirHumidity = 20
-    val todaySeason = "Winter"
+    val isSunny = true
+    val isAwningOpen = true
+    val airHumidity = 20
+    val season = "Winter"
 
     println(
-        todayIsSunnyWater == criteriaIsSunnyWeather &&
-        todayIsOpenAwning == criteriaIsOpenAwning &&
-        todayAirHumidity == criteriaAirHumidity &&
-        todaySeason != criteriaNotSeason
+        isSunny &&
+        isAwningOpen &&
+        airHumidity == AIR_HUMIDITY &&
+        season != NOT_SEASON
     )
 }
