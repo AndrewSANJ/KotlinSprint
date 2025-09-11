@@ -2,8 +2,8 @@ package org.example.lesson_5
 
 fun main() {
 
-    val number1 = 4
-    val number2 = 7
+    val number1 = (1..9).random()
+    val number2 = (1..9).random()
 
     println("Решите простой математический пример")
     print("$number1 + $number2 = ")
