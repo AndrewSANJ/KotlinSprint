@@ -7,11 +7,15 @@ fun main() {
 
     print("Введите имя: ")
     val name = readln()
+
     if (name == registeredName) {
         print("Теперь введите пароль: ")
         val password = readln()
+
         if (password == registeredPassword) {
-            println("Ваши данные проверены, и о, чудо, они верны... Пользователь \"$name\", вам разрешено входить на борт корабля \"Heart of Gold\".")
+            println("Ваши данные проверены, и о, чудо, они верны... \n" +
+                    "Пользователь \"$name\", вам разрешено входить \n" +
+                    "на борт корабля \"Heart of Gold\".")
         } else {
             println("Пароль не верный!")
         }
