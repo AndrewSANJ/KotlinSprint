@@ -20,4 +20,5 @@ fun main() {
     } else "Ожирение"
 
     println("ИМТ: ${"%.2f".format(bodyMassIndex)} - $bmi")
+
 }
