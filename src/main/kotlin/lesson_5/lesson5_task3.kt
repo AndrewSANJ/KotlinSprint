@@ -2,8 +2,8 @@ package org.example.lesson_5
 
 fun main() {
 
-    val hiddenNumber1 = 21
-    val hiddenNumber2 = 24
+    val hiddenNumber1 = (0..42).random()
+    val hiddenNumber2 = (0..42).random()
     var count = 0
 
     println("Введите два целых числа в диапазоне от 0 до 42")
