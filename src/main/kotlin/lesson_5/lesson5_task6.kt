@@ -3,7 +3,7 @@ package org.example.lesson_5
 import kotlin.math.pow
 
 const val BMI_MIN = 18.5
-const val BMI_NORM= 25.0
+const val BMI_NORM = 25.0
 const val BMI_MAX = 30.0
 
 fun main() {
